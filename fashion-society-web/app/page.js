@@ -5,14 +5,12 @@ export default function Home() {
   return (
     <div>
       <header>
-        <div className='logo'>FS Logo</div>
+        <div className="text-md">FS Logo</div>
         <nav>
-          <ul>
-            <li>
-              <Link href="/about">About</Link>
-              <Link href="/committees">Committees</Link>
-              <Link href="/events">Events</Link>
-            </li>
+          <ul className='text-md'>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/committees">Committees</Link></li>
+            <li><Link href="/events">Events</Link></li>
           </ul>
         </nav>
       </header>
