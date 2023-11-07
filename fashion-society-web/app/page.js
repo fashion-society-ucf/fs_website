@@ -18,13 +18,11 @@ export default function Home() {
         </nav>
       </header>
 
-      <main>
-        <h1>Fashion Society UCF</h1>
-      </main>
-
-    </div>
-    <main className="p-4">
+      <main className="p-4">
       <h1 className="text-md">Hello world</h1>
     </main>
+
+    </div>
+
   )
 }
