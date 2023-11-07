@@ -17,7 +17,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="p-4">
+      <main className="p-[1.2rem]">
       <h1 className="text-md">Hello world</h1>
     </main>
 
